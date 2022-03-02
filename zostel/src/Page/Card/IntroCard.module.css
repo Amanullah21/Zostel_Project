@@ -1,0 +1,49 @@
+.zo{
+    text-align: center;
+}
+.zo>div{
+     font-size: 28px;
+     line-height: 2;
+}
+.zo>div>span{
+    color: #f15824;
+}
+.zo>h1, .intro>h1{
+    line-height: 0.1;
+}
+.intro{
+    background-color: #111827;
+    color: white;
+    height: 400px;
+    width: 80%;
+    margin: 10px 10%;
+    background-image: url('https://static.cdn.zo.xyz/media/banner-nfts.png');
+    background-size:cover;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.intro:hover{
+    box-shadow: 20px 30px 10px gainsboro;
+}
+
+.founderBtn{
+    background-color: #f15824;
+    color: white;
+    height: 45px;
+    border-radius: 10px;
+    width: 220px;
+    /* font-size: 20px; */
+    border: none;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.founderBtn:hover{
+    background-color: #f08461;
+}
+.intro>span{
+    font-size: 28px;
+    line-height: 2;
+    /* background-color: #f15824; */
+}

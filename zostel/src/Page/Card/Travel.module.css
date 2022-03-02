@@ -1,0 +1,59 @@
+.TravelCard{
+    background-color: #c7fbfb;
+    height: 350px;
+    /* margin: 10px 10%; */
+    width: 41.6%;
+    /* margi/n */
+    margin-left: 3%;
+    margin-top: 40px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url('https://static.cdn.zo.xyz/media/banner-travel.png');
+    background-size: contain;
+    flex-direction: column;
+}
+.TravelCard:hover{
+    box-shadow: 20px 30px 10px gainsboro;
+}
+.TravelCard>div{
+    /* background-color: red; */
+    padding-top: 28px;
+    line-height: 1;
+    font-weight: 600;
+}
+.TravelCard>h1{
+    /* font-size: 1.5rem; */
+    margin: 0;
+    margin-top: .25rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.TravelCard>button{
+    text-transform: none;
+    line-height: 1.5715;
+    position: relative;
+    font-weight: 400;
+    text-align: center;
+    box-shadow: 0 2px 0 rgba(0,0,0,.015);
+    cursor: pointer;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+    touch-action: manipulation;
+    height: 32px;
+    padding: 4px 15px;
+    font-size: 14px;
+    border-radius: 12px;
+    color: rgba(0,0,0,.85);
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    background-color: transparent;
+    margin-top: 1rem;
+    border-color: rgb(17 24 39/var(--tw-border-opacity));
+}
+
+.TravelCard>button:hover{
+    color:rgb(238, 194, 136);
+    background-color: white;
+    border-color: bisque;
+}
